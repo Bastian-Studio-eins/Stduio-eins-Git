@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutz — Studio eins</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/brand/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/brand/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/brand/android-chrome-192.png">
+<link rel="stylesheet" href="styles.css?v=58">
+</head>
+<body>
+
+<div class="backdrop" aria-hidden="true" id="backdrop"></div>
+<canvas class="bolt-canvas" id="boltCanvas" aria-hidden="true"></canvas>
+
+<header class="nav" id="siteNav">
+  <div class="container nav__inner">
+    <a href="index.html" class="logo" aria-label="Studio eins — Start">
+      <span class="logo__type">
+        <span class="logo__l1">Stud<span class="i-wrap">ı<i class="i-dot"></i></span>o</span>
+        <span class="logo__l2">e<span class="i-wrap">ı<i class="i-dot"></i></span>ns<span class="logo__stop">.</span></span>
+      </span>
+    </a>
+    <nav class="nav__links" aria-label="Hauptnavigation">
+      <a href="index.html#leistungen">Leistungen</a>
+      <a href="index.html#portfolio">Portfolio</a>
+      <a href="index.html#tour">360°&nbsp;Tour</a>
+      <a href="index.html#prozess">Prozess</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="index.html#kontakt" class="btn btn--accent btn--sm">
+        <span class="full">Projekt anfragen</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+    <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobileMenu"><span></span></button>
+  </div>
+</header>
+
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<nav class="mobile-menu" id="mobileMenu" aria-label="Mobile Navigation">
+  <a href="index.html#leistungen">Leistungen</a>
+  <a href="index.html#portfolio">Portfolio</a>
+  <a href="index.html#tour">360° Tour</a>
+  <a href="index.html#prozess">Prozess</a>
+  <a href="index.html#kontakt">Kontakt</a>
+  <a href="index.html#kontakt" class="btn btn--accent">Projekt anfragen</a>
+</nav>
+
+<main>
+<section class="legal">
+  <div class="container">
+    <a href="index.html" class="back-link">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Zurück zur Startseite
+    </a>
+    <h1>Datenschutzerklärung</h1>
+
+    <h2>1. Verantwortlicher</h2>
+    <p>
+      Bastian Suchowinski · Studio eins<br>
+      Schwalenbergerstr. 7, 30449 Hannover<br>
+      E-Mail: <a href="mailto:bastian.suchowinski@gmail.com">bastian.suchowinski@gmail.com</a> · Telefon: <a href="tel:+491772775297">+49 177 2775297</a>
+    </p>
+
+    <h2>2. Allgemeines zur Datenverarbeitung</h2>
+    <p>Diese Website ist als statische Seite ohne eigenes Server-Backend, ohne Analyse-/Tracking-Tools und ohne eigene Cookies umgesetzt. Es werden durch mich keine Nutzungsprofile erstellt.</p>
+
+    <h2>3. Server-Logfiles</h2>
+    <p>Der Hosting-Anbieter dieser Website erhebt beim Aufruf der Seiten automatisch technische Informationen, die Ihr Browser übermittelt (sogenannte Server-Logfiles). Dazu gehören u. a. Browsertyp, verwendetes Betriebssystem, Referrer-URL, Hostname des zugreifenden Rechners sowie Uhrzeit der Serveranfrage und IP-Adresse. Diese Daten sind nicht bestimmten Personen zuordenbar und werden ausschließlich zur Gewährleistung eines störungsfreien Betriebs sowie zur Verbesserung des Angebots ausgewertet (Art. 6 Abs. 1 lit. f DSGVO).</p>
+
+    <h2>4. Kontaktaufnahme</h2>
+    <p>Das Kontaktformular auf dieser Seite überträgt keine Daten an einen Server. Beim Absenden öffnet sich stattdessen Ihr lokales E-Mail-Programm mit einer vorausgefüllten Nachricht an <a href="mailto:bastian.suchowinski@gmail.com">bastian.suchowinski@gmail.com</a>. Die von Ihnen eingegebenen Daten (Name, E-Mail-Adresse, Nachricht) verlassen Ihr Gerät ausschließlich über die von Ihnen versendete E-Mail. Die Verarbeitung dieser Daten erfolgt auf Grundlage Ihrer Einwilligung bzw. zur Bearbeitung Ihrer Anfrage (Art. 6 Abs. 1 lit. a bzw. b DSGVO). Alternativ können Sie mich direkt per Telefon oder E-Mail kontaktieren; die dabei übermittelten Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage genutzt und nicht ohne Einwilligung an Dritte weitergegeben.</p>
+
+    <h2>5. Schriftarten</h2>
+    <p>Die auf dieser Website verwendeten Schriftarten („Sora“, „Inter“, „JetBrains Mono“) sind lokal auf dem Server dieser Website hinterlegt. Es findet dadurch keine Verbindung zu Servern Dritter (z. B. Google) statt und es werden keine Daten an einen Schriftarten-Anbieter übermittelt.</p>
+
+    <h2>6. Eingebundene 360°-Tour (Kuula)</h2>
+    <p>Im Bereich „360° Tour“ bindet diese Website einen interaktiven Rundgang des Anbieters Kuula (Kuula Inc.) per iframe ein. Beim Aufruf dieses Bereichs wird eine Verbindung zu den Servern von Kuula hergestellt; dabei können technische Daten wie Ihre IP-Adresse verarbeitet werden. Es gelten die Datenschutzhinweise von Kuula, einsehbar unter <a href="https://kuula.co/privacy" target="_blank" rel="noopener">kuula.co/privacy</a>. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer anschaulichen Projektpräsentation).</p>
+
+    <h2>7. Ihre Rechte</h2>
+    <p>Sie haben jederzeit das Recht auf Auskunft über Ihre bei mir gespeicherten personenbezogenen Daten, deren Herkunft, Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung, Löschung oder Widerspruch gegen die Verarbeitung dieser Daten. Bei Fragen zum Datenschutz können Sie sich jederzeit über die oben genannten Kontaktdaten an mich wenden. Ihnen steht zudem ein Beschwerderecht bei einer zuständigen Aufsichtsbehörde zu, in Niedersachsen z. B. bei der Landesbeauftragten für den Datenschutz Niedersachsen.</p>
+
+    <h2>8. Aktualität</h2>
+    <p>Diese Datenschutzerklärung ist aktuell gültig und hat den Stand August 2026.</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="index.html" class="logo" aria-label="Studio eins — Start">
+      <span class="logo__type">
+        <span class="logo__l1">Stud<span class="i-wrap">ı<i class="i-dot"></i></span>o</span>
+        <span class="logo__l2">e<span class="i-wrap">ı<i class="i-dot"></i></span>ns<span class="logo__stop">.</span></span>
+      </span>
+    </a>
+    <nav class="footer__links" aria-label="Rechtliches">
+      <a href="index.html#leistungen">Leistungen</a>
+      <a href="index.html#portfolio">Portfolio</a>
+      <a href="index.html#kontakt">Kontakt</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+    <span class="footer__copy">© <span id="year"></span> Studio eins — Bastian Suchowinski, Hannover</span>
+  </div>
+</footer>
+
+<script src="main.js?v=58"></script>
+</body>
+</html>
