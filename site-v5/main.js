@@ -150,35 +150,38 @@
     produkt: {
       title: "Produktvisualisierung",
       images: [
-        { src: "assets/img/product-grill.jpg", caption: "Kontaktgrill · Studio-Rendering", w: 1600, h: 893 },
-        { src: "assets/img/product-shaver.jpg", caption: "Rasierer · Produktshot", w: 1200, h: 1200 },
-        { src: "assets/img/product-shaver-detail.jpg", caption: "Rasierer · Detailansicht", w: 1200, h: 1200 },
-        { src: "assets/img/product-barware.jpg", caption: "Barware-Set · Edelstahl", w: 1600, h: 800 },
-        { src: "assets/img/product-controller.jpg", caption: "Controller · Flatlay", w: 1600, h: 1600 },
-        { src: "assets/img/product-lamp.jpg", caption: "Infrarotlampe · Studioshot", w: 1200, h: 1200 },
-        { src: "assets/img/product-weatherstation.jpg", caption: "Wetterstation · Ambiente", w: 1400, h: 1400 },
-        { src: "assets/img/product-radio.jpg", caption: "Solar-Radio · Outdoor-Ambiente", w: 1600, h: 1600 },
-        { src: "assets/img/product-alarmclock.jpg", caption: "Lern-Wecker · Kinderzimmer-Ambiente", w: 1600, h: 1600 },
-        { src: "assets/img/product-heatblanket.jpg", caption: "Wärmedecke · Wohnzimmer-Ambiente", w: 1600, h: 893 },
-        { src: "assets/img/product-ledmask.jpg", caption: "LED-Gesichtsmaske · Beauty-Ambiente", w: 1600, h: 1600 }
+        { src: "assets/img/product-grill.webp", caption: "Kontaktgrill · Studio-Rendering", w: 1600, h: 893 },
+        { src: "assets/img/product-shaver.webp", caption: "Rasierer · Produktshot", w: 1200, h: 1200 },
+        { src: "assets/img/product-shaver-detail.webp", caption: "Rasierer · Detailansicht", w: 1200, h: 1200 },
+        { src: "assets/img/product-barware.webp", caption: "Barware-Set · Edelstahl", w: 1600, h: 800 },
+        { src: "assets/img/product-controller.webp", caption: "Controller · Flatlay", w: 1600, h: 1600 },
+        { src: "assets/img/product-lamp.webp", caption: "Infrarotlampe · Studioshot", w: 1200, h: 1200 },
+        { src: "assets/img/product-weatherstation.webp", caption: "Wetterstation · Ambiente", w: 1400, h: 1400 },
+        { src: "assets/img/product-radio.webp", caption: "Solar-Radio · Outdoor-Ambiente", w: 1600, h: 1600 },
+        { src: "assets/img/product-alarmclock.webp", caption: "Lern-Wecker · Kinderzimmer-Ambiente", w: 1600, h: 1600 },
+        { src: "assets/img/product-heatblanket.webp", caption: "Wärmedecke · Wohnzimmer-Ambiente", w: 1600, h: 893 },
+        { src: "assets/img/product-ledmask.webp", caption: "LED-Gesichtsmaske · Beauty-Ambiente", w: 1600, h: 1600 }
       ]
     },
     moebel: {
       title: "Möbelvisualisierung",
       images: [
-        { src: "assets/img/furniture-beige.jpg", caption: "Wohnwand · Beige Serie", w: 1800, h: 1004 },
-        { src: "assets/img/furniture-livingroom.jpg", caption: "Wohnzimmer · Loft-Setting", w: 1800, h: 1004 },
-        { src: "assets/img/furniture-oak.jpg", caption: "Vitrine &amp; Sideboard · Eiche", w: 1800, h: 1004 },
-        { src: "assets/img/furniture-blue.jpg", caption: "Wohnwand · Blau/Messing", w: 1800, h: 1004 },
-        { src: "assets/img/furniture-table.jpg", caption: "Klapptisch · Ambiente", w: 1400, h: 1400 },
-        { src: "assets/img/furniture-mirror.jpg", caption: "LED-Spiegel · Bad-Ambiente", w: 1400, h: 1400 }
+        { src: "assets/img/furniture-beige.webp", caption: "Wohnwand · Beige Serie", w: 1800, h: 1004 },
+        { src: "assets/img/furniture-livingroom.webp", caption: "Wohnzimmer · Loft-Setting", w: 1800, h: 1004 },
+        { src: "assets/img/furniture-oak.webp", caption: "Vitrine &amp; Sideboard · Eiche", w: 1800, h: 1004 },
+        { src: "assets/img/furniture-blue.webp", caption: "Wohnwand · Blau/Messing", w: 1800, h: 1004 },
+        { src: "assets/img/furniture-table.webp", caption: "Klapptisch · Ambiente", w: 1400, h: 1400 },
+        { src: "assets/img/furniture-mirror.webp", caption: "LED-Spiegel · Bad-Ambiente", w: 1400, h: 1400 },
+        { src: "assets/img/furniture-bath-beige.webp", caption: "Badmöbel-Set · Beige Riffel-Optik", w: 1600, h: 893 },
+        { src: "assets/img/furniture-bath-oak.webp", caption: "Badmöbel-Set · Eiche & Anthrazit", w: 1600, h: 1073 },
+        { src: "assets/img/furniture-wallboard.webp", caption: "Wandboard & TV-Lowboard · Eiche", w: 1600, h: 1073 }
       ]
     },
     immobilien: {
       title: "Immobilienvisualisierung",
       images: [
-        { src: "assets/img/realestate-exterior.jpg", caption: "Mehrfamilienhaus · Außenansicht", w: 1800, h: 1004 },
-        { src: "assets/img/realestate-loft.jpg", caption: "Loft-Interieur · Bergblick", w: 1600, h: 1777 }
+        { src: "assets/img/realestate-exterior.webp", caption: "Mehrfamilienhaus · Außenansicht", w: 1800, h: 1004 },
+        { src: "assets/img/realestate-loft.webp", caption: "Loft-Interieur · Bergblick", w: 1600, h: 1777 }
       ]
     }
   };
